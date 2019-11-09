@@ -1,0 +1,25 @@
+.avatar {
+  border-radius: 50%;
+  height: 12vw;
+}
+
+.main-content {
+  border: 2px solid #969696;
+  background-color: #070726;
+}
+
+.who-text {
+  margin: auto;
+  padding: 3vw 15vh;
+}
+
+.name {
+  font-size: 3vw;
+  font-weight: normal;
+  margin-bottom: 0.5vw;
+}
+
+.titles {
+  font-size: 2vw;
+  color: #DFDFDF
+}

@@ -7,7 +7,7 @@ function MainText() {
       <div className="main-content">
         <div className="who-text">
           <h1 className="name">Neven Lukić, Developer</h1>
-          <h1 className="titles">Python // React Native // React</h1>
+          <p className="titles">Python | React Native | React</p>
         </div>
       </div>
     </div>

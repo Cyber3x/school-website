@@ -1,0 +1,17 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.logo-img {
+    width: 4vw;
+}
+
+.logo {
+    margin-right: 2vw;
+}
+
+.logo:last-child {
+    margin-right: 0;
+}

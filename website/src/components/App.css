@@ -1,17 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
   color: #FFF
 }
 
 .center-content {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   text-align: center;
-  margin-top: 20vw;
+  margin-top: -3%;
 }
 
 .background {
@@ -25,8 +27,14 @@
 }
 
 .avatar {
-  position: absolute;
-  left: 50%;
-  top: -25%;
-  transform: translate(-50%, -50%);
+  transform: translate(0, 20%);
+  border-radius: 50%;
+  height: 13vw;
 }
+
+.info-cards {
+  display: flex;
+  margin-top: 2vw;
+}
+
+

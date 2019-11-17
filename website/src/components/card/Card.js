@@ -3,7 +3,7 @@ import './Card.css'
 
 const Card = props =>  {
     return (
-        <div className='card' onClick={() => props.onClick(props.text)}>
+        <div className='card' onClick={() => props.onClick()}>
             <p className='card-text'>{props.text}</p>
         </div>
     )

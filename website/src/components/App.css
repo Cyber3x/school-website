@@ -19,8 +19,8 @@
 
 .background {
   width: 100%;
-  height: 100%; 
-  position: fixed; 
+  height: 100%;
+  position: fixed;
   background: linear-gradient(220deg, #c2064b, #bb9200);
 }
 
@@ -33,4 +33,13 @@
 .info-cards {
   display: flex;
   margin-top: 2vw;
+}
+
+.about-text {
+  margin-top: 1.5vw;
+  font-size: 1.15vw;
+  color: #E2E2E2;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2vw;
+  font-weight: lighter;
 }

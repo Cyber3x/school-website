@@ -37,6 +37,7 @@
 
 .modal {
   margin: 10vw;
+
 }
 
 /* STYLING MY MOADL PAGE */
@@ -49,6 +50,8 @@
   transform: translate(-50%, -50%);
   background-color: #070726;
   border: 0.1vw solid #E2E2E2;
+  max-height: 80vh;
+  overflow-y: auto;
 }
 
 .modal-page-content {
@@ -100,6 +103,7 @@
   font-weight: lighter;
   color: #898989;
   font-size: 1.15vw;
+  margin-bottom: 0.25vw;
 }
 
 .project-link {
